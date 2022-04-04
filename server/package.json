@@ -1,0 +1,27 @@
+{
+  "name": "simple-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+
+
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "cd ../front && npm start",
+    "server": "nodemon index.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run front\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

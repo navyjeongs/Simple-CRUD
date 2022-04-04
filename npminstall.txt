@@ -1,0 +1,9 @@
+<front>
+npm i --save react-router-dom react-toastify axios
+
+<back>
+npm init : create package.json 
+npm i --save cors express uuid
+npm i --save-dev nodemon
+npm install concurrently --save
+

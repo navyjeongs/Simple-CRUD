@@ -1,0 +1,30 @@
+.card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 1px gray solid;
+  align-content: center;
+  margin: 0 auto;
+  text-align: ce;
+}
+
+.card-header {
+  height: 30%;
+  background: gray;
+  color: black;
+  text-align: center;
+}
+
+.card-header p {
+  font-size: 20px;
+}
+
+.container {
+  padding: 4px 16px;
+}
+
+.btn-view {
+  background-color: green;
+  width: 30%;
+  align-content: center;
+}
